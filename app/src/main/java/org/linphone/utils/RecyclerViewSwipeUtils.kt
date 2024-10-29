@@ -31,6 +31,14 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import org.linphone.core.tools.Log
 
+//import androidx.core.content.res.ResourcesCompat
+//import android.content.Context
+//import com.your.package.name.R
+
+
+
+
+
 /**
  * Helper class to properly display swipe actions in list items.
  */
@@ -55,7 +63,10 @@ class RecyclerViewSwipeConfiguration {
     val actionTextSizeUnit = TypedValue.COMPLEX_UNIT_SP
 
     // At least CROSSCALL Action-X3 device doesn't have SANS_SERIF typeface...
-    val actionTextFont: Typeface? = Typeface.SANS_SERIF
+     val actionTextFont: Typeface? = Typeface.SANS_SERIF
+     // val actionTextFont = ResourcesCompat.getFont(context, R.font.gmarket_sans_ttf_medium)
+
+
     val actionTextSize = 14f
 
     var leftToRightAction = Action()

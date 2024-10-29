@@ -19,7 +19,7 @@
         <TextView
             android:text="@{title}"
             android:textSize="13sp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/gmarket_sans_ttf_medium"
             android:lineSpacingExtra="0sp"
             android:textStyle="italic"
             android:textColor="@color/light_grey_color"
