@@ -336,13 +336,13 @@
     <style name="chat_message_reply_sender_font">
         <item name="android:textColor">@color/light_primary_text_color</item>
         <item name="android:textSize">13sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
     </style>
 
     <style name="chat_message_reply_font">
         <item name="android:textColor">@color/light_primary_text_color</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
     </style>
 
     <style name="chat_message_reply_forward_indicator_font">
@@ -350,7 +350,7 @@
         <item name="android:textSize">10sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:lineSpacingExtra">3.3sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
     </style>
 
     <style name="chat_message_emoji_reaction_font">
@@ -364,7 +364,7 @@
         <item name="android:textColor">@color/white_color</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
         <item name="android:lineSpacingExtra">6.7sp</item>
     </style>
 
@@ -389,14 +389,14 @@
         <item name="android:textColor">@color/green_color</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
         <item name="android:lineSpacingExtra">8.3sp</item>
     </style>
 
     <style name="dialog_zrtp_white_font" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">@color/white_color</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
         <item name="android:lineSpacingExtra">8.3sp</item>
     </style>
 
@@ -464,7 +464,7 @@
     <style name="chat_file_attachment_font" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">?attr/primaryTextColor</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/gmarket_sans_ttf_medium</item>
     </style>
 
     <style name="standard_text_font" parent="@android:style/TextAppearance.Medium">
@@ -506,4 +506,5 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
 </resources>
